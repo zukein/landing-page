@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+    title: '素晴らしい体験',
     content:
       'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
     customerName: 'Jane Doe',
