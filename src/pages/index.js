@@ -16,11 +16,11 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Yuudo tutorial
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            データ収集からデータ分析、AI開発まで実務経験のあるデータサイエンティストが
+            独断と偏見でAIプロジェクトマネジメント手法を標準化。日本初のLEAN AIPMチュートリアル
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
@@ -34,32 +34,40 @@ export default () => (
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">チュートリアルの特徴</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">即効性を追求しよう</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                学んでも実践できなければ意味がありません。
+                本チュートリアルは、学習後すぐに実務に活かせることを大切にしています。
+                優良なオンライン学習コンテンツはすでにありますが、優良であるからこそ、一定の学習時間とお金が必要です。
+                このチュートリアルは即効性を最大限に発揮するために、実際に実務で取り組んでいる手法をコンテンツにしています。
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">ゼロではなくイチであろう</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                このコンテンツはチュートリアルであり、テキストブックではありません。教科書ではなく一人のデータサイエンティスト（家庭教師）が教える一つの手法論（個別指導）です。
+                やれない・始められない・進まないプロジェクトが、少しだけ、しかし確実に進むことを目標にしています。
+                完璧・完全なプロジェクトマネジメント論よりも「あなたが一つでもプロジェクトをリードした事実」をことを大切にしています。
+                今までやったことのないことに挑戦しているプロジェクトなのに、満点じゃないことを追及することほど時間が無駄なことはありません。
+                はじめて取り組んだ課題に対して、1問解けた事実が尊いのです。
+
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">チームで楽しくやるために</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                今すぐ実務に活かすために、圧倒的な専門性を得ること捨てています。
+                しかし、このチュートリアルを読むと、専門性の高いメンバーがそのスキルを最大限発揮するために必要なことが何かを理解できるでしょう。
+                数ヶ月であなたが一つ専門スキルを習得するよりも、数ヶ月で一つのプロジェクトが実用化に向けて推進すること、そして、そのプロジェクトをチームメンバー全員が楽しめていることに価値があると考えます。
+                そもそも、私たちがAI開発やデータサイエンスについて手軽に学べている背景には、何十年も研究し人生を捧げてるその道のスペシャリストがその専門性の成果を、誰もがかんたんに使えるようにソフトウェアやライブラリにしてくれたからに他なりません。私達はすでに恩恵を受けています。
               </p>
             </Card>
           </div>
@@ -70,10 +78,14 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">必要なのはプロジェクトをリードする力</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            大量のデータを使った分析プロジェクトや機械学習を使ったAI開発の実装者には、統計学・数学をはじめとする
+            学問的な専門知識とPythonやRを使った機械学習プログラミングスキルが求められます。しかし本チュートリアルは
+            これらについて解説していません。
+            なぜなら、自分のキャリア・将来に危機感を持っているからデータサイエンスを学び始めた人やデータ活用に
+            可能性を感じて学び始めた人たちが伸び伸びと活躍し、学び得たスキルを使って社会に還元するためには、
+            AIプロジェクトをリードする力が必要だからです。
           </p>
         </div>
       }
@@ -84,11 +96,15 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            学ぶよりも、プロジェクトを楽しむこと
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            AIプロジェクトをあなたが楽しんで取り組めるようになること。専門スキルよりも楽しんで仕事ができることが大切です。
+            各コンテンツを修了するごとに、学習者のプロジェクトマネジメントの実務スキルが確実にレベルアップするように、
+            学習コンテンツをレベル別に分けて設計しています。楽しみながら読み進めてください。
+            チュートリアルは、プロジェクトマネジメントや機械学習プログラミングの未経験者を対象にコンテンツを作成しています。
+            プロジェクトを始める前の提案段階からプロジェクト開始後のマネジメント実務まで、できる限り網羅的に解説します。
+
           </p>
         </div>
       }
@@ -98,11 +114,13 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            誰もがAIプロジェクトをリードできる環境をつくることで、日本をAI先進国にする
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            本チュートリアルは、実際に実務で使っている手法をまとめています。
+            まず、AIプロジェクトを始める前の企画立案から解説しています。
+            次に、基本的なタスク管理やプロトタイピングツールを使った企画を具体化するスキルを身につけます。
+            その後、AIプロジェクト特有のデータマネジメント・データビジュアライズの基礎知識を習得していきます。
           </p>
         </div>
       }
@@ -137,9 +155,10 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">さあ始めよう</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        データ収集からデータ分析、AI開発まで実務経験のあるデータサイエンティストが
+        独断と偏見でAIプロジェクトマネジメント手法を標準化。日本初のLEAN AIPMチュートリアル
       </p>
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
